@@ -1,0 +1,42 @@
+
+a {text-decoration:none;color:green}
+a:hover {color:darkgreen;text-decoration:underline}
+#loading {width:100%;position:absolute}
+#pagination {text-align:center;margin-left:200px}
+li {list-style:symbols();float:left;margin-right:20px;padding:15px;border:solid 1px #ddd;color:green}
+li:hover {color:darkgreen;cursor:pointer}
+
+body {
+    background-color: white;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #myInput {
+    
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 85%;
+    font-size: 20px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+
+  .text {
+    border :green;
+    color:black;
+    padding: 10px 427px;
+    font-size: 20px;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(n){background-color: #f2f2f2}
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
